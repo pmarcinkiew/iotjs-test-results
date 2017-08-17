@@ -1,0 +1,6 @@
+/* device-specific styles for Raspberry Pi 3 */
+
+.submod-nuttx,
+.submod-apps {
+	display: none
+}

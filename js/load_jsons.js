@@ -43,6 +43,15 @@ function set_info(device) {
 				.text("Raspbian Jessie");
 			$("#info-image").attr('src', "img/raspberrypi2.jpg");
 			break;
+		case "rpi3":
+			$("#info-device")
+				.attr('href', "https://www.raspberrypi.org/products/raspberry-pi-3-model-b/")
+				.text("Raspberry Pi 3 Model B");
+			$("#info-platform")
+				.attr('href', "https://www.raspbian.org/")
+				.text("Raspbian Jessie");
+			$("#info-image").attr('src', "img/raspberrypi3.jpg");
+			break;
 		case "artik053":
 			$("#info-device")
 				.attr('href', "https://developer.artik.io/documentation/artik-05x/")
